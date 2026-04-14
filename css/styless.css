@@ -128,3 +128,54 @@ body {
   background: #00e5ff;
   color: #121212;
 }
+
+/* --- Estilos para el Formulario de Contacto --- */
+form {
+  background-color: #1e1e1e; /* Fondo oscuro igual al de tus tarjetas */
+  padding: 2rem;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  max-width: 600px; /* Centrado y no muy ancho */
+  margin: 2rem auto;
+  border: 1px solid #333; /* Borde muy sutil */
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  background-color: #2a2a2a; /* Fondo del input un poco más claro */
+  border: 1px solid #444; /* Borde del input */
+  border-radius: 5px;
+  color: #e0e0e0; /* Texto claro dentro del input */
+  font-size: 1rem;
+  transition: border-color 0.3s ease; /* Efecto suave al hacer foco */
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #00e5ff; /* Borde azul turquesa al hacer clic, como tus títulos */
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  background-color: #2a2a2a; /* Fondo del input un poco más claro */
+  border: 1px solid #444; /* Borde del input */
+  border-radius: 5px;
+  color: #e0e0e0; /* Texto claro dentro del input */
+  font-size: 1rem;
+  transition: border-color 0.3s ease; /* Efecto suave al hacer foco */
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #00e5ff; /* Borde azul turquesa al hacer clic, como tus títulos */
+}
+
+/* El botón ya tiene estilo por tu clase .btn-proyectos */
+/* El botón ya tiene estilo por tu clase .btn-proyectos */
