@@ -176,6 +176,12 @@ form textarea:focus {
   outline: none;
   border-color: #00e5ff; /* Borde azul turquesa al hacer clic, como tus títulos */
 }
+.card {
+  background-color: rgba(255, 255, 255, 0.05); /* Fondo casi  transparente*/
+  backdrop-filter: blur(10px); /* Desenfoque de fondo */
+  border: solid rgba(255, 255, 255, 0.1); /* Borde sutil */
+  border-radius: 15px;
+}
 
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
