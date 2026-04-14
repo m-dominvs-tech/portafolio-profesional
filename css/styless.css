@@ -1,0 +1,130 @@
+/* Configuracion General  */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* Fondo Oscuro  tipo IDE */
+  color: #e0e0e0; /* Texto gris claro  para no  cansar la vista  */
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  border-bottom: 2px solid #3d5afe; /*  Azul tecnologico */
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #3d5afe;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Secciones */
+section {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px; /* Bordes suavesa*/
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #00e5ff; /* Cian para resaltar*/
+}
+
+/* Lista de Proyectos */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #2c2c2c;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid #3d5afe;
+}
+/* Efecto de Hover (Cuando pasas el mouse) */
+li:hover {
+  background: #3d5afe;
+  color: white;
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Estilo de la foto de perfil*/
+.foto-perfil {
+  width: 150px; /* Tamaño perfecto para que no ocupe toda la pantalla */
+  height: 150px;
+  height: 150px;
+  border-radius: 50%; /* ¡Magia! La foto se vuelve redonda */
+  object-fit: cover; /* Asegura que la foto no se estire feo */
+
+  border: 4px solid #3d5afe; /* El mismo azul tecnológico de tu diseño */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Le  da profundidad */
+
+  margin-bottom: 15px; /* Separa la foto de tu nombre */
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* ¡Escribe esto con tus dedos! */
+  /* ... el resto del código del body sigue igual ... */
+}
+
+/* Estilo para las Habilidades */
+.habilidades-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.skill-tag {
+  background: #2c2c2c;
+  color: #00e5ff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid #3d5afe;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: #3d5afe;
+  color: white;
+  transform: translateY(-3px); /* Pequeño salto hacia arriba */
+}
+/* Estilo de Botones */
+.btn-proyecto {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background: transparent;
+  border: 2px solid #00e5ff;
+  color: #00e5ff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.btn-proyecto:hover {
+  background: #00e5ff;
+  color: #121212;
+}
