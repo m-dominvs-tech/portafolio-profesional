@@ -211,6 +211,24 @@ header {
   background-color: #2563eb;
   transform: translateY(-2px);
 }
+.skills-container {
+  display: flex; /* Alinea todo horizontalmente */
+  justify-content: center; /* Centra los iconos */
+  gap: 20px; /* Espacio entre iconos */
+  margin-top: 20px;
+  flex-wrap: wrap; /* Para que bajen si la pantalla es muy pequeña */
+}
 
+.skills-container img {
+  width: 60px; /* Tamaño uniforme para todos */
+  height: 60px;
+  object-fit: contain; /* Evita que la imagen se deforme */
+  transition: transform 0.3s ease; /* Efecto suave al pasar el mouse */
+}
+
+/* Efecto hover: ¡Los iconos saltan un poco! */
+.skills-container img:hover {
+  transform: scale(1.1);
+}
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
