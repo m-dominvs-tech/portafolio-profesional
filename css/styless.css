@@ -230,5 +230,38 @@ header {
 .skills-container img:hover {
   transform: scale(1.1);
 }
+
+/* Esto se activa solo en pantallas de celular (menos de 600px de ancho) */
+@media (max-width: 600px) {
+  header {
+    padding-top: 80px; /* Damos espacio arriba para el botón */
+  }
+
+  .btn-descargar-cv {
+    position: static; /* Quitamos el absoluto */
+    display: block; /* Lo hacemos bloque para que ocupe el ancho */
+    margin: 0 auto 20px auto; /* Lo centramos */
+    width: 80%; /* Un poco más angosto que la pantalla */
+    text-align: center;
+  }
+}
+footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #111; /* Un tono casi negro para separar visualmente */
+  border-top: 1px solid #333;
+  margin-top: 50px;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: #1e3a8a; /* El mismo azul de tu botón */
+}
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
