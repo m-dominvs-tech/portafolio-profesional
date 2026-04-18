@@ -263,5 +263,36 @@ footer {
 .social-links a:hover {
   color: #1e3a8a; /* El mismo azul de tu botón */
 }
+
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.proyecto-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  transition: transform 0.3s ease;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-5px);
+  border-color: #1e3a8a;
+}
+
+.btn-proyecto {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: #1e3a8a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
