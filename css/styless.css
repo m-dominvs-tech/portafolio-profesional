@@ -183,5 +183,27 @@ form textarea:focus {
   border-radius: 15px;
 }
 
+.btn-descargar-cv {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1e3a8a; /* Un azul profesional, serio pero moderno */
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px; /* Bordes suaves, muy moderno */
+  transition: all 0.3s ease; /* Para que la animación sea fluida */
+  border: 2px solid #1e3a8a;
+}
+
+/* Efecto al pasar el mouse (el "hover") */
+.btn-descargar-cv:hover {
+  background-color: transparent;
+  color: #1e3a8a;
+  transform: translateY(
+    -2px
+  ); /* Un pequeño salto hacia arriba que se ve genial */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
