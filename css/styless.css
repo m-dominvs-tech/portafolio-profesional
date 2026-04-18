@@ -183,26 +183,33 @@ form textarea:focus {
   border-radius: 15px;
 }
 
+/* 1. Preparamos el escenario */
+header {
+  position: relative; /* Esto es vital para que el botón sepa dónde es su "esquina" */
+  padding: 20px; /* Un poco de aire para que el botón no toque el borde exacto */
+}
+
+/* 2. Posicionamos el botón */
 .btn-descargar-cv {
+  position: absolute; /* Lo sacamos del flujo normal */
+  top: 20px; /* 20 píxeles desde arriba */
+  right: 20px; /* 20 píxeles desde la derecha */
+
+  /* Mantenemos tus estilos anteriores */
   display: inline-block;
   padding: 12px 24px;
-  background-color: #1e3a8a; /* Un azul profesional, serio pero moderno */
+  background-color: #1e3a8a;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
-  border-radius: 6px; /* Bordes suaves, muy moderno */
-  transition: all 0.3s ease; /* Para que la animación sea fluida */
-  border: 2px solid #1e3a8a;
+  border-radius: 6px;
+  transition: all 0.3s ease;
 }
 
-/* Efecto al pasar el mouse (el "hover") */
+/* Efecto hover (opcional, para mantenerlo profesional) */
 .btn-descargar-cv:hover {
-  background-color: transparent;
-  color: #1e3a8a;
-  transform: translateY(
-    -2px
-  ); /* Un pequeño salto hacia arriba que se ve genial */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #2563eb;
+  transform: translateY(-2px);
 }
 
 /* El botón ya tiene estilo por tu clase .btn-proyectos */
